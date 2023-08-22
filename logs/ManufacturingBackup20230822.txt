@@ -1,0 +1,26 @@
+2023-08-22 14:44:27.958 -04:00 [Information]  Backup program has started
+2023-08-22 14:44:28.059 -04:00 [Information]  Start uploading file C:\Users\ehuynh\OneDrive - ORBCOMM\Pictures\Saved Pictures\cat.jpg to blob cat.jpg in container test
+2023-08-22 14:44:31.243 -04:00 [Information]  Successfully uploaded file C:\Users\ehuynh\OneDrive - ORBCOMM\Pictures\Saved Pictures\cat.jpg to blob cat.jpg
+2023-08-22 14:44:31.245 -04:00 [Information]  Successfully backed up cat.jpg
+2023-08-22 14:44:31.245 -04:00 [Information]  Backup program finished, now quiting
+2023-08-22 14:49:01.941 -04:00 [Information]  Backup program has started
+2023-08-22 14:49:02.038 -04:00 [Information]  Start uploading file C:\Users\ehuynh\OneDrive - ORBCOMM\Pictures\Saved Pictures\cat.jpg to blob cat.jpg in container test
+2023-08-22 14:49:03.083 -04:00 [Information]  Successfully uploaded file C:\Users\ehuynh\OneDrive - ORBCOMM\Pictures\Saved Pictures\cat.jpg to blob cat.jpg
+2023-08-22 14:49:03.085 -04:00 [Information]  Successfully backed up cat.jpg
+2023-08-22 14:49:03.085 -04:00 [Information]  Backup program finished, now quiting
+2023-08-22 14:49:36.984 -04:00 [Information]  Backup program has started
+2023-08-22 14:49:37.170 -04:00 [Information]  Start uploading file C:\Users\ehuynh\OneDrive - ORBCOMM\Pictures\Saved Piceetures\cat.jpg to blob cat.jpg in container test
+2023-08-22 14:49:37.220 -04:00 [Error]  An error occurred while uploading the file: Could not find a part of the path 'C:\Users\ehuynh\OneDrive - ORBCOMM\Pictures\Saved Piceetures\cat.jpg'.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\ehuynh\OneDrive - ORBCOMM\Pictures\Saved Piceetures\cat.jpg'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.OpenRead(String path)
+   at backupBlob.Program.UploadFileToBlob(String storageAccountURL, String containerName, String filePath, String blobName, ClientCertificateCredential credential) in C:\Development\BackupTest\Program.cs:line 81
+2023-08-22 14:49:37.256 -04:00 [Information]  Backup program finished, now quiting
+2023-08-22 14:50:16.100 -04:00 [Information]  Backup program has started
+2023-08-22 14:50:16.206 -04:00 [Information]  Start uploading file C:\Users\ehuynh\OneDrive - ORBCOMM\Pictures\Saved Pictures\cat.jpg to blob cat.jpg in container test
+2023-08-22 14:50:17.298 -04:00 [Information]  Successfully uploaded file C:\Users\ehuynh\OneDrive - ORBCOMM\Pictures\Saved Pictures\cat.jpg to blob cat.jpg
+2023-08-22 14:50:17.299 -04:00 [Information]  Successfully backed up cat.jpg
+2023-08-22 14:50:17.299 -04:00 [Information]  Backup program finished, now quiting
